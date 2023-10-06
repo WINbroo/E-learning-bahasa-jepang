@@ -1,0 +1,146 @@
+body {
+  background-color: #ab4840;
+  background-size: cover; /* atau contain, sesuaikan preferensi Anda */
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.horizontal-form {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #fff;
+  width: 500px;
+  margin: 100px auto;
+  border: 5px solid #000;
+  border-radius: 10px;
+  min-height: 250px;
+}
+
+.heading {
+  padding: 5px 15px;
+  background-color: #000;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.form-body {
+  padding: 25px 25px 30px;
+  height: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: grid;
+  text-align: left;
+}
+
+.form-control {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  letter-spacing: 1px;
+  height: 40px;
+  padding: 2px 15px 2px 15px;
+  box-shadow: 0 0 5px -3px #333;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+}
+
+.form-control:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+  border: 1px solid #00b4ef;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  padding: 0px 0px 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer a {
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.btn {
+  float: right;
+  border: 1px solid;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: #e61010;
+  padding: 5px 15px;
+  margin-top: -7px;
+}
+
+.btn:focus {
+  outline: 1px auto #000;
+  border-radius: 5px;
+}
+
+.remember_me {
+  float: left;
+}
+
+.remember_me_label {
+  float: left;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.home_body {
+  width: 750px;
+  margin: auto;
+  min-height: 500px;
+  border: 5px solid #000;
+  background-color: #fff;
+}
+
+.welcom {
+  margin: 75px auto;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.log_out {
+  text-align: center;
+  width: 345px;
+  margin: auto;
+}
+
+.btn_logout {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 10px;
+  width: 100%;
+}
